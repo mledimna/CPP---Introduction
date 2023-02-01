@@ -446,3 +446,44 @@
 2 - Vector Reference/build/CMakeFiles/myproject.dir/objects.a
 2 - Vector Reference/build/CMakeFiles/myproject.dir/objects1
 2 - Vector Reference/build/CMakeFiles/myproject.dir/progress.make
+test/build/cmake_install.cmake
+test/build/CMakeCache.txt
+test/build/compile_commands.json
+test/build/Makefile
+test/build/myproject.exe
+test/build/.cmake/api/v1/query/client-vscode/query.json
+test/build/.cmake/api/v1/reply/cache-v2-9b81b2f78b49531092f8.json
+test/build/.cmake/api/v1/reply/cmakeFiles-v1-6fb700a1b78c7a8f9939.json
+test/build/.cmake/api/v1/reply/codemodel-v2-ebcaf3225d02a7b9879d.json
+test/build/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+test/build/.cmake/api/v1/reply/index-2023-02-01T09-37-45-0593.json
+test/build/.cmake/api/v1/reply/target-myproject-Debug-086ed834e5e3c63f8741.json
+test/build/.cmake/api/v1/reply/toolchains-v1-8a53b73158647a18bf30.json
+test/build/CMakeFiles/cmake.check_cache
+test/build/CMakeFiles/CMakeDirectoryInformation.cmake
+test/build/CMakeFiles/CMakeOutput.log
+test/build/CMakeFiles/Makefile.cmake
+test/build/CMakeFiles/Makefile2
+test/build/CMakeFiles/progress.marks
+test/build/CMakeFiles/TargetDirectories.txt
+test/build/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake
+test/build/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin
+test/build/CMakeFiles/3.25.2/CMakeRCCompiler.cmake
+test/build/CMakeFiles/3.25.2/CMakeSystem.cmake
+test/build/CMakeFiles/3.25.2/CompilerIdCXX/a.exe
+test/build/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
+test/build/CMakeFiles/myproject.dir/build.make
+test/build/CMakeFiles/myproject.dir/cmake_clean.cmake
+test/build/CMakeFiles/myproject.dir/compiler_depend.internal
+test/build/CMakeFiles/myproject.dir/compiler_depend.make
+test/build/CMakeFiles/myproject.dir/compiler_depend.ts
+test/build/CMakeFiles/myproject.dir/depend.make
+test/build/CMakeFiles/myproject.dir/DependInfo.cmake
+test/build/CMakeFiles/myproject.dir/flags.make
+test/build/CMakeFiles/myproject.dir/link.txt
+test/build/CMakeFiles/myproject.dir/linkLibs.rsp
+test/build/CMakeFiles/myproject.dir/main.cpp.obj
+test/build/CMakeFiles/myproject.dir/main.cpp.obj.d
+test/build/CMakeFiles/myproject.dir/objects.a
+test/build/CMakeFiles/myproject.dir/objects1
+test/build/CMakeFiles/myproject.dir/progress.make
