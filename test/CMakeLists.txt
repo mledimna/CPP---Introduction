@@ -8,8 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # add the executable
 add_executable(myproject main.cpp)
 
-# specify any libraries the executable depends on
-#target_link_libraries(myproject PRIVATE pthread)
+# Add the local library "Personne"
+add_library(personne ./Personne/Personne.cpp ./Personne/Personne.hpp)
 
-# specify where the executable should be installed
-#install(TARGETS myproject DESTINATION bin)
+# Link the executable "myproject" to "personne"
+target_link_libraries(myproject PRIVATE personne)
