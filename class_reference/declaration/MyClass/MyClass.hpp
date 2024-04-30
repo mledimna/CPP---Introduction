@@ -11,6 +11,7 @@
 
         // Constructor
         MyClass(const std::string _name);
+        ~MyClass();
 
         // Public method
         void tellName(void);

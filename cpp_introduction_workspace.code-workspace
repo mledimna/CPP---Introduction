@@ -37,5 +37,9 @@
 			"path": "vector_reference"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"istream": "cpp"
+		}
+	}
 }
