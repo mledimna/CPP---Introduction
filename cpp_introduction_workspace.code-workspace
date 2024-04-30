@@ -1,31 +1,40 @@
 {
 	"folders": [
 		{
-			"path": "class_reference/abstract"
+			"name": "class_object",
+			"path": "class_reference/class_object"
 		},
 		{
-			"path": "class_reference/access"
-		},
-		{
-			"path": "class_reference/code_organization"
-		},
-		{
+			"name": "declaration",
 			"path": "class_reference/declaration"
 		},
 		{
+			"name": "derived_class",
 			"path": "class_reference/derived_class"
 		},
 		{
+			"name": "access",
+			"path": "class_reference/access"
+		},
+		{
+			"name": "virtual",
 			"path": "class_reference/virtual"
 		},
 		{
-			"path": "vector_reference"
+			"name": "abstract",
+			"path": "class_reference/abstract"
 		},
 		{
+			"name": "operator_overload",
 			"path": "class_reference/operator_overload"
 		},
 		{
-			"path": "class_reference/class_object"
+			"name": "code_organization",
+			"path": "class_reference/code_organization"
+		},
+		{
+			"name": "vector_reference",
+			"path": "vector_reference"
 		}
 	],
 	"settings": {}
