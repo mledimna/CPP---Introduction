@@ -9,6 +9,10 @@
 			"path": "class_reference/declaration"
 		},
 		{
+			"name": "code_organization",
+			"path": "class_reference/code_organization"
+		},
+		{
 			"name": "derived_class",
 			"path": "class_reference/derived_class"
 		},
@@ -27,10 +31,6 @@
 		{
 			"name": "operator_overload",
 			"path": "class_reference/operator_overload"
-		},
-		{
-			"name": "code_organization",
-			"path": "class_reference/code_organization"
 		},
 		{
 			"name": "vector_reference",
