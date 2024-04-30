@@ -12,12 +12,12 @@ file(GLOB MYLIB_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/Vehicule/*.cpp")
 file(GLOB MYLIB_HEADERS "${CMAKE_CURRENT_SOURCE_DIR}/Vehicule/*.hpp")
 add_library(vehicule ${MYLIB_SOURCES} ${MYLIB_HEADERS})
 
-file(GLOB MYLIB_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/Vehicule/Car/*.cpp")
-file(GLOB MYLIB_HEADERS "${CMAKE_CURRENT_SOURCE_DIR}/Vehicule/Car/*.hpp")
-add_library(car ${MYLIB_SOURCES} ${MYLIB_HEADERS})
+file(GLOB MYLIB_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/Vehicule/ThermicCar/*.cpp")
+file(GLOB MYLIB_HEADERS "${CMAKE_CURRENT_SOURCE_DIR}/Vehicule/ThermicCar/*.hpp")
+add_library(thermiccar ${MYLIB_SOURCES} ${MYLIB_HEADERS})
 
 target_link_libraries(derived_class PUBLIC vehicule)
-target_link_libraries(derived_class PUBLIC car)
+target_link_libraries(derived_class PUBLIC thermiccar)
 
 # specify where the executable should be installed
 install(TARGETS derived_class DESTINATION bin)
