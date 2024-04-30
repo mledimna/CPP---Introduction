@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "class_reference/abstract"
+		},
+		{
+			"path": "class_reference/access"
+		},
+		{
+			"path": "class_reference/code_organization"
+		},
+		{
+			"path": "class_reference/declaration"
+		},
+		{
+			"path": "class_reference/derived_class"
+		},
+		{
+			"path": "class_reference/virtual"
+		},
+		{
+			"path": "vector_reference"
+		},
+		{
+			"path": "class_reference/operator_overload"
+		},
+		{
+			"path": "class_reference/class_object"
+		}
+	],
+	"settings": {}
+}
