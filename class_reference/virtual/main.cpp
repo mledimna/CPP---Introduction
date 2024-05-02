@@ -3,11 +3,13 @@
 
 class HTTP{
 public:
+    // HTTP constructor
     HTTP(const unsigned int _port) : port(_port){
         std::cout<< "Initialize connection with socket " + std::to_string(port) + "..." << std::endl;
         std::cout<< "Connection established" << std::endl;
     }
 
+    // HTTP destructor
     ~HTTP(){
         std::cout<< "Disconnect from web server..." << std::endl;
         std::cout<< "Disconnect OK" << std::endl;
