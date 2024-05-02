@@ -13,6 +13,7 @@ public:
         std::cout<< "Disconnect OK" << std::endl;
     }
 
+    // Methode propre à HTTP
     unsigned int get_port(void){
         return port;
     }
@@ -28,7 +29,7 @@ protected:
 class HTTPS : public HTTP{
 public:
     HTTPS(const unsigned int _port) : HTTP(_port) {}
-    
+
     // Redéfinition de la méthode get
     void get(void) override {
         std::cout<< "HTTPS : TLS Exchange" << std::endl;
