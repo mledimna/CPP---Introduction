@@ -9,6 +9,9 @@ void print_vector(std::vector<int> &_vector){
 
 int main(void){
     // Declaration
+    // std::vector -> indique qu'il s'agit d'un vecteur en C++
+    // <int> -> indique que le vecteur contient des entiers
+    // myVector -> le nom de notre vecteur
     std::vector<int> myVector;
 
     // Append values to vector
@@ -42,6 +45,13 @@ int main(void){
         std::cout << *it << " ";
     }
 
+    // Use specific syntax to traverse the elements of a vector.
+    for (int n : myVector){
+        std::cout << n << " ";
+    }
+    std::cout << std::endl;
+
+    // Use function to traverse elements of a vector
     print_vector(myVector);
 
     return 0;
