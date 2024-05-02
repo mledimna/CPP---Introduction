@@ -8,10 +8,16 @@ public:
         std::cout<< "Connection established" << std::endl;
     }
 
+    ~HTTP(){
+        std::cout<< "Disconnect from web server..." << std::endl;
+        std::cout<< "Disconnect OK" << std::endl;
+    }
+
     unsigned int get_port(void){
         return port;
     }
 
+    // Virtual indique qu'une classe 'fille' pourra redéfinir la méthode en réimplémentant celle-ci.
     virtual void get(void){
         std::cout<< "HTTP : GET /index.html" << std::endl;
     }
@@ -22,8 +28,9 @@ protected:
 class HTTPS : public HTTP{
 public:
     HTTPS(const unsigned int _port) : HTTP(_port) {}
-
-    void get(void){
+    
+    // Redéfinition de la méthode get
+    void get(void) override {
         std::cout<< "HTTPS : TLS Exchange" << std::endl;
         std::cout<< "HTTPS : GET /index.html" << std::endl;
     }
