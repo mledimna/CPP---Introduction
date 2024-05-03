@@ -44,10 +44,17 @@ int main(void){
     for (it = myVector.begin(); it != myVector.end(); it++) {
         std::cout << *it << " ";
     }
+    std::cout << std::endl;
 
     // Use specific syntax to traverse the elements of a vector.
-    for (int n : myVector){
+    for (int n : myVector) {
         std::cout << n << " ";
+    }
+    std::cout << std::endl;
+
+    // Use specific syntax to traverse the elements and modify them.
+    for (int &n : myVector) {
+        std::cout << ++n << " ";
     }
     std::cout << std::endl;
 

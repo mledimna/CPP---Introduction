@@ -33,6 +33,10 @@
 			"path": "class_reference/operator_overload"
 		},
 		{
+			"name": "references",
+			"path": "class_reference/references"
+		},
+		{
 			"name": "vector_reference",
 			"path": "vector_reference"
 		}
